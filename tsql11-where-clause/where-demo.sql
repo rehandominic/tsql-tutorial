@@ -20,10 +20,21 @@ SELECT *
 FROM SAMPLE_DATA
 WHERE age=25;
 
---Substitate the above equal operator with <, >, <=, >= to see how they work
+-- Substitate the above equal operator with <, >, <=, >= to see how they work
 
---Where Command with the NOT EQUAL operator '<>' (To find all persons who are not female)
+-- Where Command with the NOT EQUAL operator '<>' (To find all persons who are not female)
 
 SELECT * 
 FROM SAMPLE_DATA
 WHERE gender<>'FEMALE';
+
+-- Update Command with Where Clause (Change spelling mistake in name)
+
+UPDATE SAMPLE_DATA
+SET first_name = 'Darron'
+WHERE first_name = 'Daron';
+
+-- Delete Command with Where Clause (Delete person with specific email address)
+
+DELETE FROM SAMPLE_DATA
+WHERE email='lsaphird@google.ru';
