@@ -36,3 +36,10 @@ ORDER BY age, first_name DESC;
 SELECT id, age, first_name
 FROM SAMPLE_DATA
 ORDER BY age DESC, first_name DESC;
+
+
+-- ORDER BY Keyword used with WHERE Clause
+
+SELECT * FROM SAMPLE_DATA
+WHERE age > 30
+ORDER BY age;
