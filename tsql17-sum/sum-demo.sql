@@ -10,7 +10,7 @@ FROM SAMPLE_DATA;
 
 -- SUM() Function Usage with ALIAS
 
-SELECT AVG(age) AS 'TOTAL AGE'
+SELECT SUM(age) AS 'TOTAL AGE'
 FROM SAMPLE_DATA;
 
 -- SUM() Function with Filtering using WHERE Clause
