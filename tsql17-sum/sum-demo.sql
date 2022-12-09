@@ -15,6 +15,6 @@ FROM SAMPLE_DATA;
 
 -- SUM() Function with Filtering using WHERE Clause
 
-SELECT AVG(age) AS 'TOTAL CHINESE AGE'
+SELECT SUM(age) AS 'TOTAL CHINESE AGE'
 FROM SAMPLE_DATA
 WHERE country = 'China';
