@@ -1,3 +1,4 @@
+-- This table was created on https://www.mockaroo.com
 --CREATING THE SAMPLE DATA TABLE
 
 create table SAMPLE_DATA (
