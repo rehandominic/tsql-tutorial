@@ -1,3 +1,4 @@
+-- This table was created on https://www.mockaroo.com
 -- View Sample Data
 
 SELECT * 
