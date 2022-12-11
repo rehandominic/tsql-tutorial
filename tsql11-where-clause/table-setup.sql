@@ -1,4 +1,5 @@
 --CREATING THE SAMPLE DATA TABLE
+-- This table was created on https://www.mockaroo.com
 
 create table SAMPLE_DATA (
 	id INT,
