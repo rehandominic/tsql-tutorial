@@ -1,4 +1,5 @@
--- View Sample Data
+-- View Sample Data in the Table 
+-- This table was created on https://www.mockaroo.com
 
 SELECT * 
 FROM SAMPLE_DATA;
