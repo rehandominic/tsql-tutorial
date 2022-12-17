@@ -1,4 +1,4 @@
--- View Sample Data 
+-- View Sample Data from Mockaroo
 
 SELECT * FROM SAMPLE_DATA;
 
