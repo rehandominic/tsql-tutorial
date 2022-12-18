@@ -1,6 +1,6 @@
 SELECT * FROM SAMPLE_DATA;
 
--- Finds values where first names start with a
+-- Finds values where first names start with "a"
 
 SELECT * FROM SAMPLE_DATA
 WHERE first_name LIKE 'a%';
