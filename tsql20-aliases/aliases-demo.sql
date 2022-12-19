@@ -1,4 +1,4 @@
--- Basic Alias Usage in SQL Server
+-- Basic Alias Usage in SQL Server (T-SQL)
 
 SELECT country AS Nationality
 FROM SAMPLE_DATA;
