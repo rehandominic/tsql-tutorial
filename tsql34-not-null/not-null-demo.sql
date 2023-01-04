@@ -9,7 +9,7 @@ create table students (
 	age INT
 );
 
-Inserting Data with Null Values into Students
+-- Inserting Data with Null Values into Students
 
 INSERT INTO students VALUES (1,'john','jr','jj@gmail.com','Male',23);
 
